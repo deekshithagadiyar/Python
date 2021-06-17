@@ -1,3 +1,28 @@
+'''
+Problem 2:
+Problem Description
+Rotate a given String in the specified direction by specified magnitude.
+After each rotation make a note of the first character of the rotated String, After all rotation are performed the accumulated
+first character as noted previously will form another string, say FIRSTCHARSTRING.
+Check If FIRSTCHARSTRING is an Anagram of any substring of the Original string.
+If yes print "YES" otherwise "NO". Input
+The first line contains the original string s. The second line contains a single integer q. The ith of the next q lines contains
+character d[i] denoting direction and integer r[i] denoting the magnitude.
+Constraints
+1 <= Length of original string <= 30
+1<= q <= 10
+Output
+YES or NO
+Example 1
+Input
+carrace
+ 3
+ L 2
+ R 2
+ L 3
+Output
+NO
+'''
 string=input()
 no_rotation=int(input())
 rotation_list=[]
